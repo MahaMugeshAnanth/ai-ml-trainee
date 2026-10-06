@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# Runtime data and output
+*.db
+*.sqlite
+*.sqlite3
+.matplotlib/
+**/output/
+
+# Local configuration/secrets
+.env
+.env.*
+!.env.example
+
+# Editors/OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
