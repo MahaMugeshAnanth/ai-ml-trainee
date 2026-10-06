@@ -20,14 +20,16 @@ The arithmetic mean is calculated as the sum of valid math scores divided by the
 
 The fetch uses `requests` with a 20-second timeout. Timeout, other network errors, HTTP errors, invalid JSON, an unexpected JSON structure, and a response with no valid records are reported clearly. A chart is saved to `task2_student_scores/output/student_scores.png`.
 
-From the `assignment_1` directory, run:
+From the `task-1` directory, run:
 
 ```bash
 python task2_student_scores/main.py
 ```
 
-The script prints the number of valid records processed and the arithmetic average math score. Install project dependencies first with `python -m pip install -r requirements.txt`.
+The script prints the number of valid records processed and the arithmetic average math score. From the repository root, install dependencies with `python -m pip install -r requirements.txt` before running the task.
 
 ## Tests
 
 The Task 2 parsing and average tests use in-memory records, and the API-fetch tests mock the HTTP response. They do not rely on a live network.
+
+
